@@ -1,0 +1,24 @@
+---
+title: "FML"
+author: "Dilip Kumar"
+date: "2023-09-10"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+library(tinytex)
+getwd()
+setwd("C:/Users/user/Downloads/")
+let<-read.csv("delhi.csv")
+hist(let$year)
+plot(let$year)
+summary(let)
+summary(let$serial.no)
+
+
+
+```
+
